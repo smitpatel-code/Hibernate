@@ -12,6 +12,8 @@
 		<property name="hibernate.current_session_context_class">thread</property>
 		<mapping class="com.tut.Students" />
 		<mapping class="com.tut.Address"/>
+		<mapping class="com.map.Question"/>
+		<mapping class="com.map.Answer"/>
 	</session-factory>
 
 </hibernate-configuration>
